@@ -17,7 +17,6 @@ class GainTune(nn.Module):
 
 
     def forward(self, x):
-
         x = x.float()
         # h = self.init_hidden()
 
@@ -32,8 +31,8 @@ class GainTune(nn.Module):
     #     hidden = torch.zeros(1, self.batch_size, 3)
     #     return hidden
 
-p = GainTune()
+# p = GainTune()
 
-a = torch.tensor(np.random.rand(5,4,5))
+# a = torch.tensor(np.random.rand(5,4,5))
 
-op = p(a)
+# op = p(a)
